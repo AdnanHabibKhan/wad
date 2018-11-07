@@ -4,3 +4,153 @@
 a {
     color: #70579D;
 }
+
+#main {
+    max_width: 800px;
+    margin: auto;
+}
+.article{
+    border: 1px solid #E8E8E8;
+    border-radius: 12px;
+    width: auto;
+    margin: 10px 12px;
+    background-color: FFFFFF;
+
+
+}
+.article-name h1{
+    front-size:24px;
+    front-family:'bangers','cursive';
+    letter-spacing: 3px;
+    margin-bottom: 0;
+}
+.article-opt{
+    border-radius:50% ;
+    floot: right;
+    height:24px;
+    text-align: center;
+    width: 24px;
+    line-height: 3.5;
+
+
+}
+.article-opt:hover{
+    color: red;
+
+
+}
+.article-overview
+{
+    front-size:75%;
+
+}
+.article-overview a{
+    text-decoration: none;
+
+}
+.article-overview a:hover{
+    text-decoration: underline;
+}
+.pipe{
+    color: #ccc;
+    margin: 0 10px;
+
+}
+.text-muted{
+    opacity: 0.6;
+}
+.text-small{
+    front-size: 85%;
+}
+.lister-item{
+    width: 100%;
+    margin-top: 30px;
+}
+.lister-item > .lister-item{
+    background-color: #f6f6f5;
+    margin-bottom: 3px;
+    padding: 10 px 10px 20px ;
+}
+.lister-list > .lister-item > .lister-item - image{
+    display: inline-block
+                                             }
+.lister-list > .lister-item > .lister-item-image img{
+    box-shadow: 3px 2px 3px 1px rgba (0,0,0,0,5);
+    height: 200px;
+    width: 120px;
+}
+
+.lister-list > .lister-item > .lister-item-content{
+    width: 80%
+    float: right;
+}
+
+.lister-list > .lister-item > .lister-item-content > h3 > a{
+    color: #705790;
+    text-decoration: none;
+    front-family: 'bangers', cursive;
+    letter-spacing: 3px;
+}
+
+.lister-list > .lister-item > .lister-item-content >h3 > .lister-item-year{
+    font-size: small;
+    front-weight :normal;
+}
+.lister-list > .lister-item > .lister-item-content > .lister-item-summary{
+    line-height: 140%;
+font-size: 13px;
+
+}
+
+.lister-list > .lister-item > .lister-item-content > .lister-item-summary :: first-letter{
+    color: #705790;
+    font-size: 1.3m;
+}
+p.lister-item-summary :: selection{
+    color: yellow;
+    background: red;
+}
+
+.lister-list > .lister-item > .lister-item-content a {
+    text-decoration: none;
+    color: #705790;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
