@@ -1,6 +1,16 @@
 #main {
-    /* add CSS here */
+    width: 400px;
+    margin : auto;
+    padding : 150px;
 }
 .pet {
-    /* add CSS here */
+    border: 2px solid #fa0578;
+    border-radius: 5px;
+    -webkit-box-shadow: 10px 10px 35px 3px rgba(140,87,140,1);
+    -moz-box-shadow: 10px 10px 35px 3px rgba(140,87,140,1);
+    box-shadow: 10px 10px 35px 3px rgba(140,87,140,1);
+
+}
+.pet :hover{
+    cursor :pointer;
 }
