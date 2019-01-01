@@ -27,37 +27,11 @@ var quizOver = false;
 displayCurrentQuestion();
 document.getElementById("quiz-message").style.display = 'none';
 function displayNext() {
-    currentQuestion += 1;
-    if (currentQuestion <3)
-    {
-        var ul = document.getElementById("choice-list");
-        ul.classList.add("list-group")
-        ul.innerHTML = "";
-        displayCurrentQuestion();
-    }
-    else
-    {
-        var ul = document.getElementById("next-btn");
-        ul.innerHTML = "show result";
-    }
+    /*Write your code here */
 }
 
 function displayCurrentQuestion() {
-
-
-
-    document.getElementById("question").innerHTML = questions[currentQuestion].question;
-
-    var ul = document.getElementById("choice-list");
-    ul.classList.add("list-group");
-
-    for (var i = 0; i < 4; i++) {
-        var li = document.createElement('li');
-        li.innerHTML ='<input type="radio" value="i">' +
-            '<li>' + questions[currentQuestion].choices[i] + '<li>';
-        ul.appendChild(li);
-    }
-
+    /*Write your code here */
 }
 
 function resetQuiz() {
