@@ -40,7 +40,7 @@
 <div class="sav-acct-info acct-lft">
     <div class="acct-head">Deposit</div>
     <div class="acct-desc">
-        <input id="deposit" placeholder="Deposit Amount">
+        <input id="deposit" placeholder="Deposit Amount"  onkeyup="savingsAccount.deposit.call(this, event, this.value)" >
         <p id="deposit-msg"></p>
     </div>
 </div>
@@ -52,7 +52,7 @@
     </div>
 </div>
 <h2 class="actions"> Transactions History  </h2>
-<table id="transaction-table" cellspacing="0" rules="all" border="1" style="width:100%;">
+<table id="transaction-table" cellspacing="0" rules="all" border="1" style="width:100%;"  onkeyup="savingsAccount.withdraw.call(this, event, this.value)">
     <tr>
         <th align="left" valign="middle" scope="col">Date</th>
         <th align="left" valign="middle" scope="col">Type</th>
